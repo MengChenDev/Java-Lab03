@@ -12,7 +12,7 @@ public class Main {
         System.out.println("===================================");
         Phone huaWei = new Phone("HUAWEI", "Mate 70 Pro", "Harmony OS 4", 7999, "12GB", "512GB");
         huaWei.displayInfo();
-        iPhone.call("奶奶的手机号");
+        huaWei.call("奶奶的手机号");
         huaWei.useFeature("抖音");
         huaWei.useFeature("微信");
         huaWei.useFeature("QQ");
@@ -22,7 +22,7 @@ public class Main {
         System.out.println("===================================");
         Phone xiaoMi = new Phone("Xiaomi", "15 Ultra", "Hyper OS 2", 7799, "16GB", "1TB");
         xiaoMi.displayInfo();
-        iPhone.call("爸爸的手机号");
+        xiaoMi.call(13000000001L);
         xiaoMi.useFeature("飞书");
         xiaoMi.useFeature("哔哩哔哩");
         xiaoMi.useFeature("网易云音乐");

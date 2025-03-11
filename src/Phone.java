@@ -64,4 +64,8 @@ class Phone {
     void call(String phoneNumber) {
         System.out.println("正在拨打电话至：" + phoneNumber);
     }
+
+    void call(long phoneNumber) {
+        System.out.println("正在拨打电话至：" + phoneNumber);
+    }
 }
